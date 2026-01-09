@@ -47,7 +47,7 @@ Para configurar o ambiente de desenvolvimento localmente, siga estes passos:
 
 1. Clone o repositório:
 ```bash
-git clone [https://github.com/connectionsteam/website.git](https://github.com/connectionsteam/website.git)
+git clone https://github.com/Spyei/connections-website.git
 cd website
 ```
 
@@ -56,7 +56,6 @@ cd website
 ```bash
 npm install
 ```
-
 
 3. Variáveis de Ambiente:
 Crie um arquivo .env na raiz e configure suas credenciais:
