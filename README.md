@@ -1,10 +1,7 @@
-<div align="center">
+<div>
   <h1>Connections Website</h1>
   <p>O portal oficial e dashboard do Connections, o bot que une comunidades no Discord.</p>
-
-  <p align="center">
-    <br />
-    <br />
+  <p>
     <img src="https://img.shields.io/github/stars/Spyei/connections-website?style=for-the-badge&color=5865F2" alt="Stars" />
     <img src="https://img.shields.io/github/forks/Spyei/connections-website?style=for-the-badge&color=5865F2" alt="Forks" />
     <img src="https://img.shields.io/github/license/Spyei/connections-website?style=for-the-badge&color=5865F2" alt="License" />
