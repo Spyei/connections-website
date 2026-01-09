@@ -15,10 +15,10 @@
 O Connections é um bot de Discord projetado para criar pontes entre servidores, permitindo chats globais e integração de comunidades. Este repositório contém o código-fonte do website, que serve como a página de apresentação do bot e uma dashboard para gerenciamento de configurações.
 
 ### Funcionalidades
-- Landing Page Moderna: Design responsivo para novos usuários.
+- Landing Page Moderna: Design responsivo e moderno.
 - Integração com Discord: Sistema de login via OAuth2.
-- Dashboard: Interface para administradores gerenciarem suas instâncias.
-- Status em Tempo Real: Monitoramento da saúde e estatísticas do bot.
+- Dashboard: Interface para administradores gerenciarem suas conexões.
+- Status em Tempo Real: Monitoramento da saúde e estatísticas da conexão.
 
 ---
 
@@ -29,8 +29,6 @@ O projeto foi construído com as seguintes tecnologias:
 - Next.js 14: Framework React com foco em performance e SEO.
 - TypeScript: Garantia de segurança com tipagem estática.
 - Tailwind CSS: Estilização utilitária e design responsivo.
-- Hyper-express: API de alta performance.
-- MongoDB: Banco de dados NoSQL para escalabilidade.
 - Framer Motion: Animações na interface.
 
 ---
@@ -41,7 +39,7 @@ Para configurar o ambiente de desenvolvimento localmente, siga estes passos:
 
 ### Pré-requisitos
 - Node.js (v18+)
-- NPM ou Yarn
+- NPM
 
 ### Instalação
 
@@ -60,7 +58,6 @@ npm install
 3. Variáveis de Ambiente:
 Crie um arquivo .env na raiz e configure suas credenciais:
 ```env
-DATABASE_URL=seu_mongodb_url
 DISCORD_CLIENT_ID=id_do_bot
 DISCORD_CLIENT_SECRET=secret_do_bot
 NEXTAUTH_SECRET=sua_secret_aleatoria
