@@ -1,0 +1,22 @@
+[
+  {
+    "id": "notif_001",
+    "type": 1,
+    "content": "spyei respondeu sua mensagem em gaming-br",
+    "sentTimestamp": 1710000000000,
+    "messageURL": "https://discord.com/channels/123/456/789"
+  },
+  {
+    "id": "notif_002",
+    "type": 3,
+    "content": "Bem-vindo ao Connections! Explore as conexões disponíveis.",
+    "sentTimestamp": 1709900000000
+  },
+  {
+    "id": "notif_003",
+    "type": 4,
+    "content": "Você foi convidado para o time Connections Team",
+    "sentTimestamp": 1709800000000,
+    "teamId": "team_001"
+  }
+]

@@ -7,6 +7,7 @@ import { FaX } from "react-icons/fa6";
 import AuthUser from "./User";
 import ChooseLanguage from "./Language";
 import { useLanguage } from "../../hooks/useLanguage";
+import { MdWarning } from "react-icons/md";
 
 export default function Header() {
 	const [isDrawerOpen, setIsDrawerOpen] = useState(false);
@@ -35,7 +36,14 @@ export default function Header() {
 	}, []);
 
 	return (
-		<header className="w-screen flex justify-center text-white tablet:px-2 fixed top-1 inset-x-0 max-w-[1100px] mx-auto z-50 px-1">
+		<header className="w-screen flex flex-col justify-center text-white tablet:px-2 fixed top-1 inset-x-0 max-w-[1100px] mx-auto z-50 px-1">
+			<div className="bg-yellow-300 w-full p-1 flex items-center justify-center text-center text-sm text-black rounded-xl">
+				<MdWarning fill="#000" size={24} className="inline-block mx-2" />
+				<span>
+					Esse projeto foi descontinuado, todas informações do website são as
+					últimas da database, e são estáticas.
+				</span>
+			</div>
 			<div className="mt-2 flex gap-4 items-center w-full p-1 px-2 tablet:p-2 bg-neutral-800 backdrop-blur-sm bg-opacity-70 rounded-lg">
 				<Link className="transition duration-300" href="/">
 					<h1 className="text-2xl p-2 tablet:p-0 font-bold bg-clip-text text-transparent bg-gradient-to-r from-fuchsia-500 to-indigo-500">
@@ -58,14 +66,16 @@ export default function Header() {
 					<a
 						className="transition duration-300 group ease-in-out"
 						href="https://discord.gg/RXBRraTWeY"
-						target="_blank" rel="noreferrer"
+						target="_blank"
+						rel="noreferrer"
 					>
 						<Underline>{l.home.header.support}</Underline>
 					</a>
 					<a
 						className="transition duration-300 group ease-in-out"
 						href="https://connections-b7efc2e5.mintlify.app"
-						target="_blank" rel="noreferrer"
+						target="_blank"
+						rel="noreferrer"
 					>
 						<Underline>{l.home.header.documentation}</Underline>
 					</a>
@@ -123,14 +133,16 @@ export default function Header() {
 							onClick={handleRecallDrawer}
 							className="transition duration-300 group ease-in-out"
 							href="https://discord.gg/RXBRraTWeY"
-							target="_blank" rel="noreferrer"
+							target="_blank"
+							rel="noreferrer"
 						>
 							<Underline>{l.home.header.support}</Underline>
 						</a>
 						<a
 							className="transition duration-300 group ease-in-out"
 							target="_blank"
-							href="https://connections-b7efc2e5.mintlify.app" rel="noreferrer"
+							href="https://connections-b7efc2e5.mintlify.app"
+							rel="noreferrer"
 						>
 							<Underline>{l.home.header.documentation}</Underline>
 						</a>

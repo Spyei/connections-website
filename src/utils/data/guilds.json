@@ -1,0 +1,66 @@
+[
+  {
+    "id": "guild_001",
+    "name": "Spyei's Server",
+    "icon": "/guilds/spyei.png",
+    "prefix": "!",
+    "connections": [
+      {
+        "name": "gaming-br",
+        "icon": "/avatars/connections.png",
+        "channelId": "ch_001",
+        "flags": ["ALLOW_FILES", "ALLOW_LINKS"],
+        "lockedAt": null
+      },
+      {
+        "name": "dev-hub",
+        "icon": "/avatars/spyei.png",
+        "channelId": "ch_002",
+        "flags": ["ALLOW_EMOJIS"],
+        "lockedAt": null
+      }
+    ],
+    "cases": [
+      {
+        "type": 0,
+        "id": "case_001",
+        "reason": "Spam",
+        "connection": "gaming-br",
+        "targetId": "usr_999",
+        "target": { "username": "spammer123", "avatar": "" },
+        "moderator": { "username": "spyei", "avatar": "/avatars/spyei.png" },
+        "moderatorId": "usr_001",
+        "createdTimestamp": 1709000000000,
+        "lifetime": 3600000
+      }
+    ],
+    "mods": [
+      { "id": "usr_001", "username": "spyei", "avatar": "/avatars/spyei.png", "type": 2 }
+    ],
+    "threads": [],
+    "logs": { "flags": [0, 6] },
+    "metadata": { "maxCharsPerMessage": 500 }
+  },
+  {
+    "id": "guild_002",
+    "name": "Unreal Community",
+    "icon": "/guilds/unreal.png",
+    "prefix": "?",
+    "connections": [
+      {
+        "name": "esports-pro",
+        "icon": "/avatars/unreal.png",
+        "channelId": "ch_003",
+        "flags": ["ALLOW_FILES", "ALLOW_EMOJIS", "ALLOW_LINKS"],
+        "lockedAt": null
+      }
+    ],
+    "cases": [],
+    "mods": [
+      { "id": "usr_005", "username": "unreal", "avatar": "/avatars/unreal.png", "type": 2 }
+    ],
+    "threads": [],
+    "logs": { "flags": [0] },
+    "metadata": {}
+  }
+]

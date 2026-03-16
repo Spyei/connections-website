@@ -5,7 +5,7 @@ import { useLanguage } from "../../../hooks/useLanguage";
 import { useState } from "react";
 import DefaultTabs from "../../Mixed/Tabs";
 import DefaultButton from "../../Mixed/Button";
-import { LuPlusCircle } from "react-icons/lu";
+import { LuCirclePlus } from "react-icons/lu";
 
 export default function ConnectionsProtectedSkeleton() {
 	const l = useLanguage();
@@ -67,7 +67,7 @@ function Skeleton() {
 					label={l.dashboard.misc.filterConnections}
 				/>
 				<DefaultButton divclass="w-fit" className="w-[52px]">
-					<LuPlusCircle size={20} />
+					<LuCirclePlus size={20} />
 				</DefaultButton>
 			</div>
 			<div className="grid grid-cols-3 gap-3 w-full tablet:grid-cols-2 mobile:grid-cols-1">

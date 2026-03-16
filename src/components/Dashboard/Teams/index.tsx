@@ -13,7 +13,7 @@ import { api } from "../../../utils/api";
 import { AnimatePresence } from "framer-motion";
 import TeamCard from "./Team";
 import DefaultButton from "../../Mixed/Button";
-import { LuPlusCircle } from "react-icons/lu";
+import { LuCirclePlus } from "react-icons/lu";
 import CreateTeamForm from "./Team/CreateForm";
 import { useDisclosure } from "@nextui-org/modal";
 
@@ -94,7 +94,7 @@ export default function TeamsComponent() {
 						label={l.dashboard.misc.filterTeams}
 					/>
 					<DefaultButton onClick={onOpen} divclass="w-fit" className="w-[52px]">
-						<LuPlusCircle size={20} />
+						<LuCirclePlus size={20} />
 					</DefaultButton>
 				</div>
 				{teams ? (

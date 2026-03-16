@@ -3,7 +3,7 @@ import DefaultLayout from "../Mixed/Layout";
 import type { ConnectionsPageStructure, GuildPayload } from "../../types";
 import { api } from "../../utils/api";
 import { useLanguage } from "../../hooks/useLanguage";
-import { LuGrid, LuList } from "react-icons/lu";
+import { LuLayoutGrid, LuList } from "react-icons/lu";
 import { motion } from "framer-motion";
 import ConnectionsPageCard from "./Connection";
 import { useIsClient } from "../../contexts/Client";
@@ -193,7 +193,7 @@ export default function ConnectionsPageComponent() {
 							className="rounded-lg transition p-2 flex gap-2 z-10"
 							onClick={handleToggleLayout}
 						>
-							<LuGrid />
+							<LuLayoutGrid />
 						</button>
 					</div>
 					<div className="p-1 flex gap-2 items-center bg-neutral-800 rounded-lg h-full tabletdesk:hidden">

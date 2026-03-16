@@ -1,37 +1,28 @@
 "use client";
 import type React from "react";
-import { createContext, useState, useEffect, type ReactNode } from "react"
+import { createContext, useState, useEffect, type ReactNode } from "react";
 import type { UserContextProps, UserStructure } from "../types";
-import Cookies from "js-cookie";
-import axios from "axios";
+import { api } from "../utils/api";
 
 export const UserContext = createContext<UserContextProps>({
 	user: null,
 	setUser: () => null,
 });
 
-export const UserProvider: React.FC<{ children: ReactNode }> = ({
-	children,
-}) => {
+export const UserProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
 	const [user, setUser] = useState<UserStructure | null>(null);
 
 	useEffect(() => {
 		const fetchUser = async () => {
-			const res = await axios.get("/api/auth/user", {
-				headers: {
-					"Content-Type": "application/json",
-					Authorization: `${Cookies.get("discordUser")}`,
-				},
-			});
-
-			const data = await res.data;
-
-			setUser(data);
+			try {
+				const { data } = await api.get("/auth/user");
+				if (data) setUser(data);
+			} catch {
+				setUser(null);
+			}
 		};
 
-		if (Cookies.get("discord_user")) {
-			fetchUser();
-		}
+		fetchUser();
 	}, []);
 
 	return (

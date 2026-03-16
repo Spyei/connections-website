@@ -14,7 +14,7 @@ import { AnimatePresence } from "framer-motion";
 import Head from "next/head";
 import { useLanguage } from "../../../hooks/useLanguage";
 import DefaultButton from "../../Mixed/Button";
-import { LuPlusCircle } from "react-icons/lu";
+import { LuCirclePlus } from "react-icons/lu";
 import { useDisclosure } from "@nextui-org/modal";
 
 interface Props {
@@ -95,7 +95,7 @@ export default function ConnectionsComponent({
 						label={l.dashboard.misc.filterConnections}
 					/>
 					<DefaultButton onClick={onOpen} divclass="w-fit" className="w-[52px]">
-						<LuPlusCircle size={20} />
+						<LuCirclePlus size={20} />
 					</DefaultButton>
 				</div>
 				{connections ? (

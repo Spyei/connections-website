@@ -7,7 +7,7 @@ import type {
 	Premium,
 } from "../../../../../types";
 import ConnectionsSkeleton from "../../../ConnectionsSkeleton";
-import { LuPlusCircle } from "react-icons/lu";
+import { LuCirclePlus } from "react-icons/lu";
 import {
 	Modal,
 	ModalBody,
@@ -99,7 +99,7 @@ export default function Connections({
 					placeholder={l.dashboard.misc.filterConnections}
 				/>
 				<DefaultButton onClick={onOpen} divclass="w-fit" className="w-[52px]">
-					<LuPlusCircle size={20} />
+					<LuCirclePlus size={20} />
 				</DefaultButton>
 			</div>
 			{guild.connections ? (

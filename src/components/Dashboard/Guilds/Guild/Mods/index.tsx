@@ -15,7 +15,7 @@ import {
 	useDisclosure,
 } from "@nextui-org/modal";
 import { useContext, useState } from "react";
-import { LuPlusCircle } from "react-icons/lu";
+import { LuCirclePlus } from "react-icons/lu";
 import { api } from "../../../../../utils/api";
 import GuildModCard from "./Card";
 import GuildModModal from "./Modal";
@@ -160,7 +160,7 @@ export default function GuildMods({
 					</div>
 					{owner && (
 						<DefaultButton onClick={fetchMembers} className="h-full w-full p-4">
-							<LuPlusCircle size={20} />
+							<LuCirclePlus size={20} />
 							<span>{l.dashboard.guilds.mods.addModerator}</span>
 						</DefaultButton>
 					)}

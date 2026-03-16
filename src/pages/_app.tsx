@@ -3,10 +3,9 @@ import "../app/globals.css";
 import Header from "../components/Header";
 import Providers from "../providers";
 import type { AppProps } from "next/app";
-import { Inter } from "next/font/google";
 import Head from "next/head";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = { className: "font-sans" };
 
 export const metadata = {
     title: "Connections",
