@@ -3,7 +3,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import DefaultInput from "../../../Mixed/Input";
 import { useLanguage } from "../../../../hooks/useLanguage";
 import DefaultButton from "../../../Mixed/Button";
-import { LuPlusCircle } from "react-icons/lu";
+import { LuCirclePlus } from "react-icons/lu";
 import { useContext, useState } from "react";
 import { Modal, useDisclosure } from "@nextui-org/modal";
 import Avatar from "../../../Mixed/Avatar";
@@ -89,7 +89,7 @@ export default function TeamConnections({
 						divclass="w-fit h-[51px]"
 						className="w-[52px]"
 					>
-						<LuPlusCircle size={20} />
+						<LuCirclePlus size={20} />
 					</DefaultButton>
 				</div>
 				<div className="flex flex-col gap-2">

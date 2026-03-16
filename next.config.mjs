@@ -17,17 +17,7 @@ const nextConfig = {
 			},
 		],
 	},
-	rewrites: () => {
-		return [
-			{
-				source: "/api/:path*",
-				destination: `${process.env.PROXY_URL}/api/:path*`,
-			},
-		];
-	},
-	env: {
-		PROXY_URL: process.env.PROXY_URL,
-	},
+
 };
 
 export default nextConfig;

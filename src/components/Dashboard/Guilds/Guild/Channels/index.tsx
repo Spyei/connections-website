@@ -6,7 +6,7 @@ import {
 	type GuildChannelsPayload,
 	type GuildPayload,
 } from "../../../../../types";
-import { LuLock, LuUnlock } from "react-icons/lu";
+import { LuLock, LuLockOpen } from "react-icons/lu";
 import Avatar from "../../../../Mixed/Avatar";
 import { api } from "../../../../../utils/api";
 import { motion } from "framer-motion";
@@ -113,7 +113,7 @@ export default function Channels({ channels, guild, setGuild }: Props) {
 										<LuLock size={26} />
 									</div>
 									<div className="w-full z-20 p-1">
-										<LuUnlock size={26} />
+										<LuLockOpen size={26} />
 									</div>
 								</div>
 							</button>

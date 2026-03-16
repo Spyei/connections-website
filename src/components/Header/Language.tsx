@@ -46,12 +46,14 @@ export default function ChooseLanguage({ mobile }: { mobile?: boolean }) {
 			</DropdownTrigger>
 			<DropdownMenu className="bg-neutral-800 rounded-lg outline-none">
 				<DropdownItem
+					key="pt-BR"
 					onClick={() => handleLanguage("pt-BR")}
 					className="bg-neutral-800 rounded-lg cursor-pointer hover:bg-neutral-700 transition outline-none w-11"
 				>
 					<FlagBr />
 				</DropdownItem>
 				<DropdownItem
+					key="en-US"
 					onClick={() => handleLanguage("en-US")}
 					className="bg-neutral-800 rounded-lg cursor-pointer hover:bg-neutral-700 transition outline-none w-11 mt-1"
 				>

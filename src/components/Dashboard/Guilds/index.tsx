@@ -3,7 +3,7 @@ import { useLanguage } from "../../../hooks/useLanguage";
 import { type ChangeEvent, useState, useEffect } from "react";
 import type { GuildPayload } from "../../../types";
 import ConnectionsSkeleton from "../ConnectionsSkeleton";
-import { LuPlusCircle } from "react-icons/lu";
+import { LuCirclePlus } from "react-icons/lu";
 import Avatar from "../../../components/Mixed/Avatar";
 import { motion, AnimatePresence } from "framer-motion";
 import { MdOutlineSync } from "react-icons/md";
@@ -67,7 +67,7 @@ export default function GuildsComponent({ guilds, fetchGuilds }: Props) {
 						label={l.dashboard.misc.filterGuilds}
 					/>
 					<DefaultButton href={url} divclass="w-fit" className="w-[52px]">
-						<LuPlusCircle size={20} />
+						<LuCirclePlus size={20} />
 					</DefaultButton>
 					<button
 						disabled={clicked}

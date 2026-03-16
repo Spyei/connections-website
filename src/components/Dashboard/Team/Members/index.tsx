@@ -4,7 +4,7 @@ import { useContext, useState } from "react";
 import Avatar from "../../../Mixed/Avatar";
 import DefaultInput from "../../../Mixed/Input";
 import DefaultButton from "../../../Mixed/Button";
-import { LuPlusCircle } from "react-icons/lu";
+import { LuCirclePlus } from "react-icons/lu";
 import { Modal, useDisclosure } from "@nextui-org/modal";
 import InviteMember from "./Invite";
 import { useLanguage } from "../../../../hooks/useLanguage";
@@ -71,7 +71,7 @@ export default function TeamMembers({ team, setTeam, teamID }: Props) {
 						divclass="w-fit h-[51px]"
 						className="w-[52px]"
 					>
-						<LuPlusCircle size={20} />
+						<LuCirclePlus size={20} />
 					</DefaultButton>
 				</div>
 				<div className="flex flex-col gap-2">

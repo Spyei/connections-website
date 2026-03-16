@@ -1,0 +1,30 @@
+[
+  {
+    "id": "team_001",
+    "name": "Connections Team",
+    "iconURL": "/avatars/connections.png",
+    "creatorId": "usr_001",
+    "createdTimestamp": 1688000000000,
+    "children": [
+      { "name": "gaming-br", "icon": "/avatars/connections.png", "description": "Gaming BR connection" },
+      { "name": "dev-hub", "icon": "/avatars/spyei.png", "description": "Dev hub connection" }
+    ],
+    "members": [
+      { "id": "usr_001", "username": "spyei", "avatar": "/avatars/spyei.png", "joinedTimestamp": 1688000000000 },
+      { "id": "usr_002", "username": "drezo", "avatar": "/avatars/drezo.png", "joinedTimestamp": 1689000000000 }
+    ]
+  },
+  {
+    "id": "team_002",
+    "name": "Unreal Team",
+    "iconURL": "/avatars/unreal.png",
+    "creatorId": "usr_005",
+    "createdTimestamp": 1692000000000,
+    "children": [
+      { "name": "esports-pro", "icon": "/avatars/unreal.png", "description": "Esports connection" }
+    ],
+    "members": [
+      { "id": "usr_005", "username": "unreal", "avatar": "/avatars/unreal.png", "joinedTimestamp": 1692000000000 }
+    ]
+  }
+]

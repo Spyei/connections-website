@@ -1,0 +1,100 @@
+[
+  {
+    "_id": "conn_001",
+    "name": "gaming-br",
+    "description": "O maior servidor de gaming do Brasil. Conecte seus servidores e jogue com a comunidade!",
+    "icon": "/avatars/connections.png",
+    "tags": ["gaming", "português", "comunidade"],
+    "createdTimestamp": 1690000000000,
+    "promotingSince": 1700000000000,
+    "creator": { "id": "usr_001", "username": "spyei", "avatar": "spyei_avatar" },
+    "team": { "name": "Connections Team", "iconURL": "/avatars/connections.png" },
+    "votes": [
+      { "_id": "v1", "userId": "usr_001", "count": 42, "lastVoteTimestamp": 1710000000000 },
+      { "_id": "v2", "userId": "usr_002", "count": 17, "lastVoteTimestamp": 1709900000000 }
+    ]
+  },
+  {
+    "_id": "conn_002",
+    "name": "anime-world",
+    "description": "Servidor dedicado a discussões de anime, manga e cultura japonesa.",
+    "icon": "/avatars/kau.jpg",
+    "tags": ["anime", "manga", "japonês"],
+    "createdTimestamp": 1691000000000,
+    "creator": { "id": "usr_002", "username": "drezo", "avatar": "drezo_avatar" },
+    "votes": [
+      { "_id": "v3", "userId": "usr_003", "count": 30, "lastVoteTimestamp": 1710000000000 },
+      { "_id": "v4", "userId": "usr_004", "count": 8, "lastVoteTimestamp": 1709800000000 }
+    ]
+  },
+  {
+    "_id": "conn_003",
+    "name": "dev-hub",
+    "description": "Comunidade de desenvolvedores. Tire dúvidas, compartilhe projetos e colabore.",
+    "icon": "/avatars/spyei.png",
+    "tags": ["programação", "tecnologia", "dev"],
+    "createdTimestamp": 1692000000000,
+    "creator": { "id": "usr_001", "username": "spyei", "avatar": "spyei_avatar" },
+    "votes": [
+      { "_id": "v5", "userId": "usr_002", "count": 55, "lastVoteTimestamp": 1710000000000 }
+    ]
+  },
+  {
+    "_id": "conn_004",
+    "name": "musica-lofi",
+    "description": "Relaxe e estude ouvindo lo-fi com a comunidade. 24/7.",
+    "icon": "/avatars/patu.jpg",
+    "tags": ["música", "lofi", "relaxar"],
+    "createdTimestamp": 1693000000000,
+    "creator": { "id": "usr_003", "username": "patu", "avatar": "patu_avatar" },
+    "votes": [
+      { "_id": "v6", "userId": "usr_001", "count": 22, "lastVoteTimestamp": 1710000000000 }
+    ]
+  },
+  {
+    "_id": "conn_005",
+    "name": "arte-digital",
+    "description": "Compartilhe suas artes digitais, receba feedback e aprenda com outros artistas.",
+    "icon": "/avatars/toddy.png",
+    "tags": ["arte", "design", "criativo"],
+    "createdTimestamp": 1694000000000,
+    "creator": { "id": "usr_004", "username": "toddy", "avatar": "toddy_avatar" },
+    "votes": [
+      { "_id": "v7", "userId": "usr_003", "count": 14, "lastVoteTimestamp": 1709700000000 }
+    ]
+  },
+  {
+    "_id": "conn_006",
+    "name": "estudos-br",
+    "description": "Grupo de estudos brasileiro. Vestibular, faculdade e concursos.",
+    "tags": ["estudos", "educação", "português"],
+    "createdTimestamp": 1695000000000,
+    "creator": { "id": "usr_005", "username": "unreal", "avatar": "unreal_avatar" },
+    "votes": []
+  },
+  {
+    "_id": "conn_007",
+    "name": "esports-pro",
+    "description": "Acompanhe torneios, resultados e notícias do mundo dos esports.",
+    "icon": "/avatars/unreal.png",
+    "tags": ["gaming", "esports", "competitivo"],
+    "createdTimestamp": 1696000000000,
+    "promotingSince": 1708000000000,
+    "creator": { "id": "usr_002", "username": "drezo", "avatar": "drezo_avatar" },
+    "votes": [
+      { "_id": "v8", "userId": "usr_005", "count": 66, "lastVoteTimestamp": 1710000000000 },
+      { "_id": "v9", "userId": "usr_001", "count": 11, "lastVoteTimestamp": 1709600000000 }
+    ]
+  },
+  {
+    "_id": "conn_008",
+    "name": "culinaria-tips",
+    "description": "Receitas, dicas e truques culinários para todos os níveis.",
+    "tags": ["culinária", "receitas", "comida"],
+    "createdTimestamp": 1697000000000,
+    "creator": { "id": "usr_004", "username": "toddy", "avatar": "toddy_avatar" },
+    "votes": [
+      { "_id": "v10", "userId": "usr_002", "count": 9, "lastVoteTimestamp": 1709500000000 }
+    ]
+  }
+]

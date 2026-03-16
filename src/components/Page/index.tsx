@@ -9,7 +9,7 @@ import UserEmbed from "./UserEmbed";
 import ConnectionsEmbed from "./ConnectionsEmbed";
 import DefaultButton from "../Mixed/Button";
 import { TbLayoutDashboardFilled } from "react-icons/tb";
-import { LuPlusCircle } from "react-icons/lu";
+import { LuCirclePlus } from "react-icons/lu";
 import Link from "next/link";
 import { useContext, useEffect, useState } from "react";
 import { UserContext } from "../../contexts/User";
@@ -143,7 +143,7 @@ export default function Page() {
                             p-3 py-4 rounded-lg transition w-full gap-3 hover:bg-neutral-700"
 									rel="noreferrer"
 								>
-									<LuPlusCircle size={20} />
+									<LuCirclePlus size={20} />
 									<span>{l.home.addConnections}</span>
 								</a>
 							</motion.div>
@@ -367,7 +367,7 @@ export default function Page() {
                                         tablet:rounded-lg tablet:border-2 tablet:w-full mobile:text-sm"
 									rel="noreferrer"
 								>
-									<LuPlusCircle size={20} />
+									<LuCirclePlus size={20} />
 									<span>{l.home.addConnections}</span>
 								</a>
 							</div>
